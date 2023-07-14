@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "29B09AA3-9455-4747-92F7-7A159BF926C4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E88A706-1A0C-4856-AE9E-76043F717716"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjectFiveTammGlobalSuggestion/Screens/GlobalSuggestions/View/ViewController/SuggestionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "searchBarSearchButtonClicked(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4E88A706-1A0C-4856-AE9E-76043F717716 - fd3eba0ac17b3aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjectFiveTammGlobalSuggestion.SuggestionViewController.searchBarSearchButtonClicked(__C.UISearchBar) -&gt; ()"
+                  moduleName = "ProjectFiveTammGlobalSuggestion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nbappaiah/Documents/Chitvan%20Labs/ProjectFiveTammGlobalSuggestion/ProjectFiveTammGlobalSuggestion/Screens/GlobalSuggestions/View/ViewController/SuggestionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "81">
+               </Location>
+               <Location
+                  uuid = "4E88A706-1A0C-4856-AE9E-76043F717716 - fd3eba0ac17b3aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjectFiveTammGlobalSuggestion.SuggestionViewController.searchBarSearchButtonClicked(__C.UISearchBar) -&gt; ()"
+                  moduleName = "ProjectFiveTammGlobalSuggestion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nbappaiah/Documents/Chitvan%20Labs/ProjectFiveTammGlobalSuggestion/ProjectFiveTammGlobalSuggestion/Screens/GlobalSuggestions/View/ViewController/SuggestionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "127">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "408AFB52-85A4-491B-AE84-88ECEE113CAE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjectFiveTammGlobalSuggestion/Screens/GlobalSuggestions/View/ViewController/SuggestionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "searchBar(_:textDidChange:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
