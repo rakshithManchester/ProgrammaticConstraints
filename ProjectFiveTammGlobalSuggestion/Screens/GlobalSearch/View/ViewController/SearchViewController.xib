@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchViewController" customModule="ProjectFiveTammGlobalSuggestion" customModuleProvider="target">
             <connections>
-                <outlet property="tableView" destination="9OD-os-oWW" id="g3E-wU-AM7"/>
+                <outlet property="searchView" destination="TiL-a0-2yW" id="FNL-Ar-HQP"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,18 +19,18 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="9OD-os-oWW">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TiL-a0-2yW" customClass="SearchView" customModule="ProjectFiveTammGlobalSuggestion" customModuleProvider="target">
                     <rect key="frame" x="16" y="59" width="361" height="759"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                </tableView>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="9OD-os-oWW" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="0Sa-7U-RLI"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9OD-os-oWW" secondAttribute="trailing" constant="16" id="KTa-P4-TEf"/>
-                <constraint firstItem="9OD-os-oWW" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Rrf-Vb-qbJ"/>
-                <constraint firstItem="9OD-os-oWW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="sk0-oI-vK6"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="TiL-a0-2yW" secondAttribute="trailing" constant="16" id="AXh-RT-on3"/>
+                <constraint firstItem="TiL-a0-2yW" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="cos-aY-HW1"/>
+                <constraint firstItem="TiL-a0-2yW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="dNd-T5-BGg"/>
+                <constraint firstItem="TiL-a0-2yW" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="xvb-2R-g5I"/>
             </constraints>
             <point key="canvasLocation" x="60.305343511450381" y="20.422535211267608"/>
         </view>

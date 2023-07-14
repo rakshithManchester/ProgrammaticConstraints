@@ -8,20 +8,26 @@
 import UIKit
 
 class SuggestionViewController: UIViewController {
-    private var cellHeight = 50.0
     
-    var tableView: UITableView! {
-        let tableView = UITableView()
-        tableView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(tableView)
-        tableView.topAnchor.constraint(equalTo: searchBar.bottomAnchor,constant: 0).isActive = true
-        tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0).isActive = true
-        tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0).isActive = true
-        tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0).isActive = true
-        return tableView
+    private var cellHeight = 50.0
+    lazy var tableView = UITableView()
+    lazy var searchBar = UISearchBar()
+    var suggestionPresenter: SuggestionPresenter!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .white
+        setupUI()
+        searchBar.delegate = self
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.register(SuggestionTableViewCell.self, forCellReuseIdentifier: SuggestionTableViewCell.id)
     }
-    var searchBar: UISearchBar! {
-        let searchBar = UISearchBar()
+    func setupUI() {
+        searchBarConstraintSetup()
+        tableViewConstraintSetup()
+    }
+    func searchBarConstraintSetup() {
         view.addSubview(searchBar)
         searchBar.backgroundColor = .gray
         searchBar.translatesAutoresizingMaskIntoConstraints = false
@@ -29,17 +35,14 @@ class SuggestionViewController: UIViewController {
         searchBar.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0).isActive = true
         searchBar.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0).isActive = true
         searchBar.heightAnchor.constraint(equalToConstant: 40).isActive = true
-        return searchBar
     }
-    var suggestionPresenter: SuggestionPresenter!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .white
-        searchBar.delegate = self
-        tableView.delegate = self
-        tableView.dataSource = self
-        tableView.register(UINib(nibName: SuggestionTableViewCell.id, bundle: nil), forCellReuseIdentifier: SuggestionTableViewCell.id)
+    func tableViewConstraintSetup() {
+        tableView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(tableView)
+        tableView.topAnchor.constraint(equalTo: searchBar.bottomAnchor,constant: 0).isActive = true
+        tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0).isActive = true
+        tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0).isActive = true
+        tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0).isActive = true
     }
     func reloadUI() {
         DispatchQueue.main.async {

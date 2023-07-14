@@ -7,65 +7,145 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4E88A706-1A0C-4856-AE9E-76043F717716"
+            uuid = "D7D05B5A-45D8-48C6-9796-8FB0A8339F76"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ProjectFiveTammGlobalSuggestion/Screens/GlobalSuggestions/View/ViewController/SuggestionViewController.swift"
+            filePath = "ProjectFiveTammGlobalSuggestion/Screens/GlobalSearch/View/SearchTableview/SearchView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
-            landmarkName = "searchBarSearchButtonClicked(_:)"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4E88A706-1A0C-4856-AE9E-76043F717716 - fd3eba0ac17b3aa"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ProjectFiveTammGlobalSuggestion.SuggestionViewController.searchBarSearchButtonClicked(__C.UISearchBar) -&gt; ()"
-                  moduleName = "ProjectFiveTammGlobalSuggestion"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nbappaiah/Documents/Chitvan%20Labs/ProjectFiveTammGlobalSuggestion/ProjectFiveTammGlobalSuggestion/Screens/GlobalSuggestions/View/ViewController/SuggestionViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "97"
-                  endingLineNumber = "97"
-                  offsetFromSymbolStart = "81">
-               </Location>
-               <Location
-                  uuid = "4E88A706-1A0C-4856-AE9E-76043F717716 - fd3eba0ac17b3aa"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ProjectFiveTammGlobalSuggestion.SuggestionViewController.searchBarSearchButtonClicked(__C.UISearchBar) -&gt; ()"
-                  moduleName = "ProjectFiveTammGlobalSuggestion"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nbappaiah/Documents/Chitvan%20Labs/ProjectFiveTammGlobalSuggestion/ProjectFiveTammGlobalSuggestion/Screens/GlobalSuggestions/View/ViewController/SuggestionViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "97"
-                  endingLineNumber = "97"
-                  offsetFromSymbolStart = "127">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "408AFB52-85A4-491B-AE84-88ECEE113CAE"
+            uuid = "A3D315B9-9624-4684-A5C0-4E47730D276F"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ProjectFiveTammGlobalSuggestion/Screens/GlobalSuggestions/View/ViewController/SuggestionViewController.swift"
+            filePath = "ProjectFiveTammGlobalSuggestion/Screens/GlobalSearch/View/SearchTableview/SearchView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
-            landmarkName = "searchBar(_:textDidChange:)"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "tableView(_:viewForHeaderInSection:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AA56A9A-24B5-4A60-B939-0E9BF0B5B10A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjectFiveTammGlobalSuggestion/Screens/GlobalSearch/View/SearchTableview/SearchView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "openFilter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1A56D13-2834-41EC-A93B-A106EF07B1B3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjectFiveTammGlobalSuggestion/Screens/GlobalSearch/View/SearchTableview/SearchView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "registerTableview()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B29F91BA-6C3D-4A74-90C5-897FC999F6D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjectFiveTammGlobalSuggestion/Screens/GlobalSearch/View/ViewController/SearchViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "reloadUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61BBA622-C483-41E0-A25F-62E46BE78742"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjectFiveTammGlobalSuggestion/Screens/GlobalSearch/View/SearchTableview/SearchView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C99F5BBE-C0B6-4088-982C-EAA3E8C7FEB0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProjectFiveTammGlobalSuggestion/Screens/GlobalSearch/View/SearchTableview/SearchView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C99F5BBE-C0B6-4088-982C-EAA3E8C7FEB0 - 654fa8fab28f0e37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjectFiveTammGlobalSuggestion.SearchView.init(searchPresenter: Swift.Optional&lt;ProjectFiveTammGlobalSuggestion.SearchPresenter&gt;) -&gt; ProjectFiveTammGlobalSuggestion.SearchView"
+                  moduleName = "ProjectFiveTammGlobalSuggestion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nbappaiah/Documents/Chitvan%20Labs/ProjectFiveTammGlobalSuggestion/ProjectFiveTammGlobalSuggestion/Screens/GlobalSearch/View/SearchTableview/SearchView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "253">
+               </Location>
+               <Location
+                  uuid = "C99F5BBE-C0B6-4088-982C-EAA3E8C7FEB0 - 3ba73c242f8eac92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProjectFiveTammGlobalSuggestion.SearchView.awakeFromNib() -&gt; ()"
+                  moduleName = "ProjectFiveTammGlobalSuggestion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nbappaiah/Documents/Chitvan%20Labs/ProjectFiveTammGlobalSuggestion/ProjectFiveTammGlobalSuggestion/Screens/GlobalSearch/View/SearchTableview/SearchView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

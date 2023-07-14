@@ -9,21 +9,30 @@ import UIKit
 
 class SuggestionTableViewCell: UITableViewCell {
 
-    var suggestionTxtLbl: UILabel! {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
-        label.leadingAnchor.constraint(equalTo: self.leftAnchor).isActive = true
-        label.trailingAnchor.constraint(equalTo: self.trailingAnchor).isActive = true
-        label.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
-        return label
-    }
+    var suggestionTxtLbl = UILabel()
+    
     static let id = "SuggestionTableViewCell"
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        setupSuggestionTxtConstraints()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    func setupSuggestionTxtConstraints() {
+        addSubview(suggestionTxtLbl)
+        suggestionTxtLbl.translatesAutoresizingMaskIntoConstraints = false
+        suggestionTxtLbl.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
+        suggestionTxtLbl.leadingAnchor.constraint(equalTo: self.leadingAnchor,constant: 10).isActive = true
+        suggestionTxtLbl.trailingAnchor.constraint(equalTo: self.trailingAnchor,constant: -10).isActive = true
+        suggestionTxtLbl.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
     }
     
     func setupCell(suggestionText: String) {
         suggestionTxtLbl.text = suggestionText
     }
+    
 }
